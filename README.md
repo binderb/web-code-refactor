@@ -8,7 +8,7 @@ An exercise wherein a provided sample of web code was **refactored** to incorpor
 - Use of accessibility features such as the `alt` attribute for images.
 - Incorporation of **comments** into the CSS file to aid in developer readability.
 
-![A screenshot shows the web page side-by-side with a sample of the refactored code.](assets/images/readme_screenshot.jpg)
+![A screenshot shows the web page side-by-side with a sample of the refactored code.](assets/images/readme_screenshot.png)
 
 ## Usage
 
