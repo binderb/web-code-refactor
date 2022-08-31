@@ -1,3 +1,7 @@
+/* ---------------------------------
+   General Styles
+   --------------------------------- */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +11,19 @@
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* ---------------------------------
+   Header
+   --------------------------------- */
 
 header {
     padding: 20px;
@@ -41,30 +58,17 @@ header ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* ---------------------------------
+   Main
+   --------------------------------- */
 
 #splash img {
     width: 100%;
     margin-bottom: 25px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* 'Features' will appear in blocks on the left side of the page,
+   with decorative images and text. */
 main #features {
     width: 75%;
     display: inline-block;
@@ -89,6 +93,18 @@ main #features {
     font-size: 36px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* 'Benefits' will appear in a continuous vertical block on the 
+   right side of the page, with decorative icons and text. */
 main #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -115,6 +131,10 @@ main #benefits {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* ---------------------------------
+   Footer
+   --------------------------------- */
 
 footer {
     padding: 30px;
